@@ -1,3 +1,4 @@
 set -e
 
-curl https://install.meteor.com | /bin/sh || exit 1
+curl https://install.meteor.com | /bin/sh
+exit 0;

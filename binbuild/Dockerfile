@@ -1,4 +1,4 @@
-FROM meteorhacks/meteord:base
+FROM thepfmind/meteord:base
 MAINTAINER thepfmind, thepfmind@gmail.com
 
 COPY scripts/install_binbuild_tools.sh $METEORD_DIR/install_binbuild_tools.sh

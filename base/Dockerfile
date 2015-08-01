@@ -1,4 +1,4 @@
-FROM ubuntu:wily
+FROM ubuntu:wily	
 MAINTAINER thepfmind, thepfmind@gmail.com
 
 ENV METEORD_DIR /opt/meteord

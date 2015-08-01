@@ -1,5 +1,5 @@
-FROM meteorhacks/meteord:base
-MAINTAINER MeteorHacks Pvt Ltd.
+FROM thepfmind/meteord:base
+MAINTAINER thepfmind, thepfmind@gmail.com
 
 ONBUILD RUN bash $METEORD_DIR/lib/install_meteor.sh
 ONBUILD COPY ./ /app

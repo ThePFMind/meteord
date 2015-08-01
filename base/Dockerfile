@@ -1,5 +1,5 @@
-FROM debian:wheezy
-MAINTAINER MeteorHacks Pvt Ltd.
+FROM ubuntu:wily
+MAINTAINER thepfmind, thepfmind@gmail.com
 
 ENV METEORD_DIR /opt/meteord
 COPY scripts $METEORD_DIR
